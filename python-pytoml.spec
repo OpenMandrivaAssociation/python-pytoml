@@ -12,8 +12,10 @@ BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python2)
 BuildRequires:  pythonegg(setuptools)
+BuildRequires:  python2-pkg-resources
 BuildRequires:  pkgconfig(python3)
 BuildRequires:  python3egg(setuptools)
+BuildRequires:  python-pkg-resources
 
 %description
 This project aims at being a specs-conforming and strict parser and writer for
