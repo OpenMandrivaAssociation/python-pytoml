@@ -1,7 +1,7 @@
 %define srcname pytoml
 
 Name:           python-%{srcname}
-Version:        0.1.14
+Version:	0.1.20
 Release:        2
 Summary:        A TOML-0.4.0 parser/writer for Python
 Group:		Development/Python
