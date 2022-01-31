@@ -22,8 +22,6 @@ The library currently supports version 0.4.0 of the specs.
 
 %prep
 %setup -q -n %{srcname}-%{version}
-cp -a . %{py2dir}
-
 
 %build
 %__python setup.py build
