@@ -2,7 +2,7 @@
 
 Name:		python-%{srcname}
 Version:	0.1.21
-Release:	3
+Release:	4
 Summary:	A TOML-0.4.0 parser/writer for Python
 Group:		Development/Python
 License:	BSD
