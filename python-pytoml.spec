@@ -3,7 +3,7 @@
 
 Name:		python-%{module}
 Version:	0.1.21
-Release:	5
+Release:	6
 Summary:	A TOML-0.4.0 parser/writer for Python
 Group:		Development/Python
 License:	BSD
@@ -12,7 +12,7 @@ Source0:	https://github.com/avakar/pytoml/archive/%{module}-%{version}.tar.gz
 BuildSystem:	python
 BuildArch:	noarch
 
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
